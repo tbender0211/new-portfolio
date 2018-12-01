@@ -3,8 +3,21 @@ nav .brand-logo {
   color: #444;
 }
 
+.card {
+  background-color: #2A292F;
+  color: white;
+}
+
+a {
+  color: #BD8E47;
+}
+
 p {
   line-height: 2rem;
+}
+
+.page-footer {
+  color: #2A292F;
 }
 
 .sidenav-trigger {
@@ -20,6 +33,11 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
+nav {
+  background: #2A292F;
+  color: white;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
