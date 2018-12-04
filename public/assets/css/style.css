@@ -1,32 +1,31 @@
-nav ul a,
-nav .brand-logo {
-  color: #444;
+.sidenav {
+  background-color: #6A6662;
+  width: 200px;
+  color: #EBECE7;
 }
 
 header, main, footer {
-  padding-left: 300px;
+  padding-left: 200px;
+}
+
+#projects-row {
+  padding-left: 15%;
+}
+
+.parallax {
+  opacity: .85;
+}
+
+h2 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 100px;
+  color: rgb(44, 44, 44);
 }
 
 @media only screen and (max-width : 992px) {
   header, main, footer {
     padding-left: 0;
   }
-}
-
-ul.table-of-contents {
-  margin-top: 0;
-  padding-top: 48px;
-}
-
-.row .col {
-  float: left;
-  box-sizing: border-box;
-  padding: 0 .75rem;
-  min-height: 1px;
-}
-
-div {
-  display: block;
 }
 
 h1 {
@@ -55,7 +54,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: whitesmoke;
 }
 
 .parallax-container {
@@ -87,13 +86,6 @@ nav {
   #index-banner .section {
     top: 0;
   }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
 }
 
 footer.page-footer {
