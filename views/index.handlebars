@@ -1,22 +1,25 @@
-<nav role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo white-text">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#" class="white-text">Navbar Link</a></li>
+<ul id="slide-out" class="sidenav sidenav-fixed">
+     <div class="col hide-on-small-only m3 l2 offset-x11">
+      <ul class="section table-of-contents">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
       </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
-  </nav>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+   
+
+<main>
+<div id="introduction" class="section scrollspy">
+<div class="col s12 m10 offset-m1 x17 offset-x11">
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Tara Bender</h1>
+        <h1 class="header center text-lighten-2">Tara Bender</h1>
         <div class="row center">
           <img class="responsive-img circle col s2 offset-m5" src="/assets/css/images/me-thumbnail.jpg">
         </div>
@@ -24,13 +27,24 @@
           <h5 class="header col s12 light">Web Developer with an emphasis on Front-end</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Throw Github link and stuff here</a>
+          <a href="https://github.com/tbender0211" id="download-button" 
+            class="btn-large waves-effect waves-light lighten-1">
+              <div class="icon">
+                <i class="fab fa-github"></i>
+              </div>
+          </a>
+          <a href="https://github.com/tbender0211" id="download-button" 
+            class="btn-large waves-effect waves-light lighten-1">
+              <div class="icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+          </a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="/assets/css/images/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="/assets/css/images/stardust.png" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -69,8 +83,9 @@
 
     </div>
   </div>
+  </div>
 
-
+<div id="resume" class="section scrollspy">
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -112,8 +127,10 @@
 
     </div>
   </div>
+  
+</div>
 
-
+<div id="projects" class="section scrollspy">
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -126,88 +143,89 @@
   </div>
 
   <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Projects</h4>
+    <div class="col s12 center">
+      <h3><i class="mdi-content-send brown-text"></i></h3>
+      <h4>Projects</h4>
+  </div>
 
-          <div class="row">
-            <div class="col s4 m4">
+<div class="row">
+  <div class="col s4 m5">
 
-              <div class="card hoverable">
-                <div class="card-image">
-                  <img src="/assets/css/images/wowguessgame.png">
-                  <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                  <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/tbender0211/Word-Guess-Game" target="_blank">Github</a>
-                </div>
-              </div>
-            </div>
+    <div class="card hoverable">
+      <div class="card-image">
+        <img src="/assets/css/images/wowguessgame.png">
+        <span class="card-title"></span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action">
+        <a href="https://github.com/tbender0211/Word-Guess-Game" target="_blank">Github</a>
+      </div>
+    </div>
+  </div>
 
-            <div class="col s4 m4">
-              <div class="card hoverable">
-                <div class="card-image">
-                  <img src="/assets/css/images/moodmusic.png">
-                  <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                  <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/tbender0211/mood-music" target="_blank">Github</a>
-                </div>
-              </div>
-            </div>
+  <div class="col s4 m5">
+    <div class="card hoverable">
+      <div class="card-image">
+        <img src="/assets/css/images/moodmusic.png">
+        <span class="card-title"></span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action">
+        <a href="https://github.com/tbender0211/mood-music" target="_blank">Github</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div class="col s4 m4">
-              <div class="card hoverable">
-                <div class="card-image">
-                  <img src="/assets/css/images/crystalcollector.png">
-                  <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                  <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/tbender0211/crystal-collector" target="_blank">Github</a>
-                </div>
-              </div>
-            </div>
+<div class="row">
 
-          </div>
+    <div class="col s4 m5">
+      <div class="card hoverable">
+        <div class="card-image">
+          <img src="/assets/css/images/crystalcollector.png">
+          <span class="card-title"></span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/tbender0211/crystal-collector" target="_blank">Github</a>
+        </div>
+      </div>
+    </div>
+  <div class="col s4 m5">
+    <div class="card hoverable">
+      <div class="card-image">
+        <img src="/assets/css/images/raddit.png">
+        <span class="card-title black-text"></span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action">
+        <a href="https://github.com/tbender0211/eiforya">Github</a>
+      </div>
+      <div class="card-action">
+        <a href="https://its-raddit.herokuapp.com/" target="_blank">Heroku</a>
+      </div>
+    </div>
+  </div>
 
-          <div class="row">
-
-            <div class="col s4 m4">
-              <div class="card hoverable">
-                <div class="card-image">
-                  <img src="/assets/css/images/raddit.png">
-                  <span class="card-title black-text"></span>
-                </div>
-                <div class="card-content">
-                  <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/tbender0211/eiforya">Github</a>
-                </div>
-                <div class="card-action">
-                  <a href="https://its-raddit.herokuapp.com/" target="_blank">Heroku</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
+</div>
             
         </div>
   </div>
-
+</div>
+</div>
+</main>
   <footer class="page-footer">
     <div class="footer-copyright">
       <div class="container">

@@ -3,8 +3,42 @@ nav .brand-logo {
   color: #444;
 }
 
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+ul.table-of-contents {
+  margin-top: 0;
+  padding-top: 48px;
+}
+
+.row .col {
+  float: left;
+  box-sizing: border-box;
+  padding: 0 .75rem;
+  min-height: 1px;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  color: #A09791;
+}
+
+.btn-large {
+  background-color: #6F7781;
+}
+
 .card {
-  background-color: #242327;
+  background-color: 36343F;
   color: white;
 }
 
@@ -17,7 +51,7 @@ p {
 }
 
 .page-footer {
-  color: #242327;
+  color: #36343F;
 }
 
 .sidenav-trigger {
@@ -35,8 +69,8 @@ p {
   }
 
 nav {
-  background: #242327;
-  color: white;
+  background: #36343F;
+  color: #EBECE7;
 }
 
 @media only screen and (max-width : 992px) {
