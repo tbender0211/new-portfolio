@@ -7527,6 +7527,7 @@ input[type=range]::-ms-thumb {
 .sidenav {
   position: fixed;
   width: 300px;
+  padding-top: 30px;
   left: 0;
   top: 0;
   margin: 0;
@@ -7569,7 +7570,7 @@ input[type=range]::-ms-thumb {
 }
 
 .sidenav li > a {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(252, 252, 252, 0.966);
   display: block;
   font-size: 14px;
   font-weight: 500;
