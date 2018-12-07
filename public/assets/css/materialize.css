@@ -2942,7 +2942,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #6A6662;
 }
 
 .page-footer .footer-copyright {
@@ -3448,7 +3448,6 @@ table span.badge {
 }
 
 .section {
-  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -7516,7 +7515,7 @@ input[type=range]::-ms-thumb {
 .table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 15px;
-  border-left: 1px solid #ee6e73;
+  border-left: 1px solid #507985;
 }
 
 .table-of-contents a.active {
@@ -7566,7 +7565,7 @@ input[type=range]::-ms-thumb {
 }
 
 .sidenav li.active {
-  background-color: rgba(0, 0, 0, 0.05);
+  color: rgb(255, 253, 253);
 }
 
 .sidenav li > a {
